@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    >
+
+
+        <ImageButton
+            android:contentDescription="backButton"
+            android:id="@+id/back"
+            android:background="@null"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_margin="15dp"
+            />
+
+
+
+        <EditText
+            android:paddingLeft="20dp"
+            android:id="@+id/emailViewLogin"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@drawable/register_editview_bg"
+            android:textSize="22sp"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:maxLength="40"
+            android:inputType="textEmailAddress"
+            android:elevation="8dp"
+            android:textColorHint="#bbb"
+            android:hint="Email"
+
+            />
+        <EditText
+
+            android:paddingLeft="20dp"
+            android:id="@+id/passwordEditViewLogin"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@drawable/register_editview_bg"
+            android:layout_below="@+id/emailViewLogin"
+            android:textSize="22sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textPassword"
+            android:elevation="8dp"
+            android:hint="Password"
+            android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+            android:paddingRight="10dp"
+            android:textColorHint="#bbb"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/createTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:elevation="8dp"
+            android:layout_marginStart="260dp"
+            android:layout_below="@+id/passwordEditViewLogin"
+            android:layout_marginTop="35dp"
+
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            />
+
+    <ImageButton
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditViewLogin"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@+id/createTextView"
+        android:background="@null"
+        android:elevation="50dp"
+        android:src="@drawable/button_bg_custom" />
+        <TextView
+            android:id="@+id/oAuthTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login with,"
+
+            android:layout_marginTop="35dp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            />
+        <LinearLayout
+            android:id="@+id/oauthList"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/oAuthTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+
+            >
+            <ImageButton
+                android:id="@+id/fbImgBtn"
+                android:background="@null"
+                android:src="@drawable/ic_fb"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:paddingRight="10dp"
+                android:layout_marginRight="20dp"
+
+                />
+            <ImageButton
+                android:id="@+id/gpImgBtn"
+                android:background="@null"
+                android:src="@drawable/ic_gp"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginRight="20dp"
+                />
+            <ImageButton
+                android:id="@+id/twImgBtn"
+                android:background="@null"
+                android:src="@drawable/ic_tw"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:paddingRight="10dp"
+
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/orSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or sign up"
+            android:layout_below="@id/oauthList"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/registerBtnOnLoginPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Register"
+            android:layout_below="@+id/orSignUp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/teal_700" />
+    </RelativeLayout>

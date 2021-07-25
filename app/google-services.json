@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "467756241402",
+    "project_id": "weddemofirebase",
+    "storage_bucket": "weddemofirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467756241402:android:ad2049329b868b7a769443",
+        "android_client_info": {
+          "package_name": "com.example.weddemofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467756241402-d3h99i9rpnnhll64nuqk4709ja6djjoj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3oj-p9dHcMZyZ3d_GfK7c3rU7E9zikw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467756241402-d3h99i9rpnnhll64nuqk4709ja6djjoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

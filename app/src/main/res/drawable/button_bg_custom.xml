@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+<ripple android:color="@color/cardview_shadow_start_color"/>
+</item>
+    <item>
+    <shape android:shape="rectangle" >
+
+        <gradient android:startColor="#f89537" android:endColor="#ddd"/>
+        <corners android:radius="14dp"/>
+    </shape>
+</item>
+<item android:drawable="@drawable/ic_baseline_arrow_forward_24" />
+
+</layer-list>
